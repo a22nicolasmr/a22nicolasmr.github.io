@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>JavaBean | Creación de compoñentes visuais</title>
+    <meta name="generator" content="VuePress 1.9.10">
+    
+    <meta name="description" content="">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/assets/css/0.styles.d74e1dbf.css" as="style"><link rel="preload" href="/assets/js/app.7f7fe5a1.js" as="script"><link rel="preload" href="/assets/js/2.9a839662.js" as="script"><link rel="preload" href="/assets/js/1.47e12c88.js" as="script"><link rel="preload" href="/assets/js/28.ef029b5d.js" as="script"><link rel="prefetch" href="/assets/js/10.fde088a2.js"><link rel="prefetch" href="/assets/js/11.845e3692.js"><link rel="prefetch" href="/assets/js/12.27d4f152.js"><link rel="prefetch" href="/assets/js/13.fa0dde68.js"><link rel="prefetch" href="/assets/js/14.eb7a3d07.js"><link rel="prefetch" href="/assets/js/15.b60f3925.js"><link rel="prefetch" href="/assets/js/16.85253907.js"><link rel="prefetch" href="/assets/js/17.c2838453.js"><link rel="prefetch" href="/assets/js/18.3256f17f.js"><link rel="prefetch" href="/assets/js/19.d8afd0ae.js"><link rel="prefetch" href="/assets/js/20.0d880388.js"><link rel="prefetch" href="/assets/js/21.33b300c9.js"><link rel="prefetch" href="/assets/js/22.7f2a0ebd.js"><link rel="prefetch" href="/assets/js/23.99213605.js"><link rel="prefetch" href="/assets/js/24.c53b6750.js"><link rel="prefetch" href="/assets/js/25.858ad3ad.js"><link rel="prefetch" href="/assets/js/26.e5f603c0.js"><link rel="prefetch" href="/assets/js/27.d58d0d37.js"><link rel="prefetch" href="/assets/js/29.c3bcd6f3.js"><link rel="prefetch" href="/assets/js/3.af33e5d6.js"><link rel="prefetch" href="/assets/js/4.0e092980.js"><link rel="prefetch" href="/assets/js/5.3b9be48d.js"><link rel="prefetch" href="/assets/js/6.7b96ebf4.js"><link rel="prefetch" href="/assets/js/7.7e58b9c4.js"><link rel="prefetch" href="/assets/js/vendors~docsearch.8b826ef6.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.d74e1dbf.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Creación de compoñentes visuais</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/guide/" class="nav-link router-link-active">
+  Guide
+</a></div><div class="nav-item"><a href="/config/" class="nav-link">
+  Config
+</a></div><div class="nav-item"><a href="/elaboracionComp/" class="nav-link">
+  Elaboración
+</a></div><div class="nav-item"><a href="https://v1.vuepress.vuejs.org" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  VuePress
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/guide/" class="nav-link router-link-active">
+  Guide
+</a></div><div class="nav-item"><a href="/config/" class="nav-link">
+  Config
+</a></div><div class="nav-item"><a href="/elaboracionComp/" class="nav-link">
+  Elaboración
+</a></div><div class="nav-item"><a href="https://v1.vuepress.vuejs.org" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  VuePress
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Guide</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/" aria-current="page" class="sidebar-link">Introduction</a></li><li><a href="/guide/using-vue.html" aria-current="page" class="active sidebar-link">JavaBean</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide/using-vue.html#persistencia" class="sidebar-link">Persistencia</a></li><li class="sidebar-sub-header"><a href="/guide/using-vue.html#introspeccion" class="sidebar-link">Introspección</a></li><li class="sidebar-sub-header"><a href="/guide/using-vue.html#personalizacion" class="sidebar-link">Personalización</a></li><li class="sidebar-sub-header"><a href="/guide/using-vue.html#eventos" class="sidebar-link">Eventos</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="javabean"><a href="#javabean" class="header-anchor">#</a> JavaBean</h1> <p>Defínese un JavaBean (ou Bean) como un compoñente software reutilizable e que pode ser
+manipulado visualmente por unha ferramenta de programación en linguaxe Java.
+Para que unha clase sexa considerada un JavaBean debe cumprir unha serie de normas.
+Estas normas permitirán ao IDE interrogar o Bean e coñecer as propiedades que define e
+os tipos de eventos que pode xerar en resposta a diversas accións.</p> <h2 id="persistencia"><a href="#persistencia" class="header-anchor">#</a> Persistencia</h2> <p>A persistencia é a característica dunha clase que permite almacenar o estado para que
+perdure a través do tempo. Para implementala, é necesario que poida ser almacenada nun
+arquivo e recuperada posteriormente.
+O mecanismo que implementa a persistencia chámase serialización. E ao proceso de
+almacenar o estado dunha clase nun arquivo chámase serializar.
+Todos os compoñentes deben persistir. Para iso, dende o punto de vista de Java, deben
+implementar a interface java.io.Serializable que ofrece a posibilidade de serialización
+automática.</p> <h2 id="introspeccion"><a href="#introspeccion" class="header-anchor">#</a> Introspección</h2> <p>Permitir ao IDE poder recoñecer elementos de deseño como os
+nomes das propiedades, xunto co tipo de datos e os métodos.</p> <h2 id="personalizacion"><a href="#personalizacion" class="header-anchor">#</a> Personalización</h2> <p>A aparencia e conduta do Bean pode ser alterada pola persoa
+programadora mediante os cambios dos valores nas propiedades.</p> <h2 id="eventos"><a href="#eventos" class="header-anchor">#</a> Eventos</h2> <p>Debe informar ao IDE dos sucesos que pode xerar en resposta ás accións
+das persoas usuarias e tamén os eventos que pode manexar.</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/guide/" class="prev router-link-active">
+        Introduction
+      </a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.7f7fe5a1.js" defer></script><script src="/assets/js/2.9a839662.js" defer></script><script src="/assets/js/1.47e12c88.js" defer></script><script src="/assets/js/28.ef029b5d.js" defer></script>
+  </body>
+</html>
